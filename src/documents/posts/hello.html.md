@@ -4,4 +4,4 @@ layout: post
 tags: ['intro','post']
 ---
 
-This is a **blog post**
+This is a **blog post** woo!

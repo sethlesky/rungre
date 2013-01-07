@@ -10,8 +10,7 @@
 
 //- Bootstrap
 - scripts.add(["/vendor/twitter-bootstrap/js/bootstrap.js"])
-- styles.add(["/styles/style.css"])
-- styles.add(["/vendor/twitter-bootstrap/css/bootstrap.css","/vendor/twitter-bootstrap/css/bootstrap-responsive.css"])
+- styles.add(["/vendor/twitter-bootstrap/css/bootstrap.css","/styles/style.css","/vendor/twitter-bootstrap/css/bootstrap-responsive.css"])
 
 //- Other Scripts
 - scripts.add(["/vendor/log.js","/vendor/modernizr.js"])
@@ -64,18 +63,20 @@ html(lang="en")
     .navbar.navbar-fixed-top
       .navbar-inner
         .container
-          a.brand(href="/") Welcome
+          a.brand(href="/")
+          .tagline Master the GRE Vocab on the move!
           ul.nav
             each doc in getCollection('pages').toJSON()
               - clazz = (document.url === doc.url) ? 'active' : null
               li(typeof="sioc:Page", about=doc.url, class=clazz)
                 a(href=doc.url, property="dc:title")= doc.title
-    .container
-      section#content.content!= content
-      hr
-      footer
-        div= site.copyright
-        div(style="font-style:italic; font-size: 12px") This website was last updated at #{site.date}
+
+ .container
+    section#content.content!= content
+    hr
+    footer
+      div= site.copyright
+      div(style="font-style:italic; font-size: 12px") This website was last updated at #{site.date}
 
     // Scripts
     != scripts.toHTML()
