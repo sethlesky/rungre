@@ -1,58 +1,33 @@
-a, a:link
-  cursor pointer
 
 body
-  padding-top 81px
-
-table
-  tfoot, tbody
-    th
-      border-top 1px solid #DDD
-
-footer
-  padding-bottom: 30px
-
-// Set colors
-.red
-	color: #c02515
+  padding-top 83px
 
 // Navbar 
 .navbar
-	background-color white
-	padding-bottom: 0px
-	.navbar-inner
-		background-color white
-		background-image none
-		border none
-		.container
-			padding-top 8px
-		.nav
-			float right
-			padding-top 20px
-			font-size: 16px
+	.navbar-inner .nav
+		padding-top 20px
+
+.tagline
+	margin-top: 30px
+	text-shadow: 0 1px 0 white;
+	color: #777;
+
 .brand
 	background url('../images/logo.png') no-repeat
 	width: 104px
 	height: 62px
-	padding: 0px
 
-
+// Get it
 ul li:last-child
-	a
-		border: 1px solid #999
-		border-radius: 5px
-		margin-left: 15px
-		text-transform: uppercase
-		font-size: 15px
-
-.tagline
-	float: left
-	width: 300px
-	margin-top: 30px
-	font-size: 18px
-	color: #777
 	padding-left: 15px
+.navbar .nav > li:last-child > a
+	padding: 10px
+	border: 1px solid #999
+	border-radius: 5px
+	text-transform: uppercase
+	font-size: 14px
 
+// banner
 .hero-unit
 	height: 379px
 	padding: 0px
@@ -60,7 +35,6 @@ ul li:last-child
 	border-radius: 0px
 	color: white
 	background-image: url('../images/bookbg.jpg');
-
 
 .iphone-container
 	text-align: center
@@ -113,35 +87,12 @@ ul li:last-child
 	// 	margin-right: 220px
 	// .container
 	// 	margin-left: 20px
-	body //experimental
+	body 
 		// padding-left: 0px !important
 		// margin-right: 0px !important
 		// padding-right: 0px !important
 		// padding-top: 0px !important
 
-// /* Large desktop */
-// @media (min-width: 1200px)
- 
-// /* Portrait tablet to landscape and desktop */
-// @media (min-width: 768px) and (max-width: 979px)
- 
-// /* Landscape phone to portrait tablet */
-// @media (max-width: 767px)
- 
-/* Landscape phones and down */
-// @media (max-width: 480px)
-// 	.tagline
-// 		font-size: 12px
-// 		width: 250px
-// 	ul li a
-// 		font-size: 14px
-// 	ul li a:last-child
-// 		font-size: 14px
-
-
-@media (max-width: 767px)
-	.navbar
-		font-size: 12px
 
 
 
