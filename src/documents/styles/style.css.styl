@@ -29,10 +29,21 @@ footer
 		.nav
 			float right
 			padding-top 20px
-		.brand
-			background url('../images/logo.png') no-repeat
-			width: 88px
-			height: 62px
+			font-size: 16px
+.brand
+	background url('../images/logo.png') no-repeat
+	width: 104px
+	height: 62px
+	padding: 0px
+
+
+ul li:last-child
+	a
+		border: 1px solid #999
+		border-radius: 5px
+		margin-left: 15px
+		text-transform: uppercase
+		font-size: 15px
 
 .tagline
 	float: left
@@ -47,20 +58,90 @@ footer
 	padding: 0px
 	-webkit-border-radius: 0px
 	border-radius: 0px
+	color: white
+	background-image: url('../images/bookbg.jpg');
+
+
+.iphone-container
+	text-align: center
+.iphone
+	position: relative
+	top: -70px
 
 
 // Setup media queries here from deocpad authors website
 .navbar.navbar-fixed-top
 	margin-bottom: 0px
 
+.drquote
+	padding: 10px
+	background-color: #eee
+	padding: 20px
+	margin-bottom: 20px
+	text-align: center
+	font-size: 22px
+	font-style: italic
+	p
+		font-size: 14px
+
+.leftside
+	float: left
+	width: 50%
+	height: 379px
+.rightside
+	float: right
+	width: 50%
+	height: 379px
+	background-image: url('../images/runner.jpg');
+
 
 @media (max-width: 767px)
-	.hero-unit
-		margin-top: 20px
-		border-radius 15px
+	// .hero-unit
+	// 	margin-top: 20px
+	// 	margin-top: 0px
+	.rightside
+		display: none
+	.leftside
+		 width: 100%
+	// .iphone
+	// 	position: absolute
+	// 	right: -40px
+	// 	top: 900px
+	.iphone
+		display: none
+	// .content-wrapper
+	// 	margin-right: 220px
+	// .container
+	// 	margin-left: 20px
+	body //experimental
+		// padding-left: 0px !important
+		// margin-right: 0px !important
+		// padding-right: 0px !important
+		// padding-top: 0px !important
+
+// /* Large desktop */
+// @media (min-width: 1200px)
+ 
+// /* Portrait tablet to landscape and desktop */
+// @media (min-width: 768px) and (max-width: 979px)
+ 
+// /* Landscape phone to portrait tablet */
+// @media (max-width: 767px)
+ 
+/* Landscape phones and down */
+// @media (max-width: 480px)
+// 	.tagline
+// 		font-size: 12px
+// 		width: 250px
+// 	ul li a
+// 		font-size: 14px
+// 	ul li a:last-child
+// 		font-size: 14px
 
 
-
+@media (max-width: 767px)
+	.navbar
+		font-size: 12px
 
 
 

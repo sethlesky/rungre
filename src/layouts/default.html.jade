@@ -71,12 +71,12 @@ html(lang="en")
               li(typeof="sioc:Page", about=doc.url, class=clazz)
                 a(href=doc.url, property="dc:title")= doc.title
 
- .container
-    section#content.content!= content
-    hr
-    footer
-      div= site.copyright
-      div(style="font-style:italic; font-size: 12px") This website was last updated at #{site.date}
 
-    // Scripts
-    != scripts.toHTML()
+  section#content.content!= content
+  hr
+  footer
+    div= site.copyright
+    div(style="font-style:italic; font-size: 12px") This website was last updated at #{site.date}
+
+  // Scripts
+  != scripts.toHTML()
