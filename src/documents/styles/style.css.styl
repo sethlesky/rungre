@@ -78,31 +78,38 @@ ul li:last-child
 	height: 379px
 	background-image: url('../images/runner.jpg');
 
+/* Large desktop */
+@media (min-width: 1200px) {
 
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+ 
+/* Landscape phone to portrait tablet */
 @media (max-width: 767px)
-	// .hero-unit
-	// 	margin-top: 20px
-	// 	margin-top: 0px
+
+	html body
+		padding: 0px
+
+		.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top
+			margin: 0px
+
 	.rightside
 		display: none
 	.leftside
 		 width: 100%
-	// .iphone
-	// 	position: absolute
-	// 	right: -40px
-	// 	top: 900px
 	.iphone
 		display: none
-	// .content-wrapper
-	// 	margin-right: 220px
-	// .container
-	// 	margin-left: 20px
-	body 
-		// padding-left: 0px !important
-		// margin-right: 0px !important
-		// padding-right: 0px !important
-		// padding-top: 0px !important
 
+	.content-wrapper
+		margin: 0px 20px 0px 20px
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
 
+}
 
 
