@@ -63,13 +63,18 @@ html(lang="en")
     .navbar.navbar-fixed-top
       .navbar-inner
         .container
+          a.btn.btn-navbar(data-toggle="collapse", data-target=".nav-collapse")
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
           a.brand(href="/")
           .tagline.pull-left GRE flashcards designed for movement
-          ul.nav.pull-right
-            each doc in getCollection('pages').toJSON()
-              - clazz = (document.url === doc.url) ? 'active' : null
-              li(typeof="sioc:Page", about=doc.url, class=clazz)
-                a(href=doc.url, property="dc:title")= doc.title
+          .nav-collapse.collapse
+            ul.nav.pull-right
+              each doc in getCollection('pages').toJSON()
+                - clazz = (document.url === doc.url) ? 'active' : null
+                li(typeof="sioc:Page", about=doc.url, class=clazz)
+                  a(href=doc.url, property="dc:title")= doc.title
 
 
   section#content.content!= content
