@@ -1,13 +1,14 @@
 
 RunGRE Task Todo:
- ✔ Full width body on mobile @done (13-01-13 22:23)
- ☐ Collapse nav on mobile
-   ✔ Style the button @done (13-01-14 01:47)
-   ☐ Fix unstyle during collapse
- ☐ FitText
- ☐ Working on 500+ devices!
- ☐ Playable demo, inside iphone image
+✔ Full width body on mobile @done (13-01-13 22:23)
+✔ Collapse nav on mobile @done (13-01-14 17:59)
+  ✔ Style the button @done (13-01-14 01:47)
+  ✔ Fix unstyle during collapse @done (13-01-14 17:59)
+☐ Shrink height of navbar on mobile
+☐ FitText
+☐ Playable demo, inside iphone image
 
+Add content:
 
 ---- ✄ -----------------------
 
@@ -18,4 +19,5 @@ Thoughts:
     GRE
 
 YouTube video explaining the idea
-Complete transparency
+Complete transparency 
+working on 500+ devices!
