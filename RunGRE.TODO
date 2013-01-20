@@ -5,10 +5,12 @@ RunGRE Task Todo:
   ✔ Style the button @done (13-01-14 01:47)
   ✔ Fix unstyle during collapse @done (13-01-14 17:59)
   ✔ Shrink height of navbar on mobile @done (13-01-16 23:11)
-☐ Add BUY button
-  ☐ Add price
-  ☐ Center
+✔ Add BUY button @done (13-01-19 21:06)
+  ✔ Add price @done (13-01-19 21:06)
+  ✔ Center @done (13-01-19 21:06)
 ☐ FitText?
+☐ Add iconfonts (fontawesome or?)
+☐ Buy proper image of book
 ☐ Playable demo, inside iphone image
 ☐ Fuzzy logo on iPhone
 
