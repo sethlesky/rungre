@@ -7,7 +7,7 @@
     function showNextQuote() {
         ++quoteIndex;
         quotes.eq(quoteIndex % quotes.length)
-            .fadeIn(2000)
+            .fadeIn(2000).css("display","inline-block")
             .delay(2000)
             .fadeOut(2000, showNextQuote);
     }
