@@ -18,6 +18,9 @@
 //- User
 - scripts.add(["/scripts/script.js", "/scripts/txtcycle.js"])
 
+//-Font Awesome
+- styles.add(["/vendor/font-awesome/css/font-awesome.min.css"])
+
 doctype 5
 html(lang="en")
   head
@@ -78,7 +81,6 @@ html(lang="en")
 
 
   section#content.content!= content
-  hr
   footer
     div= site.copyright
     div(style="font-style:italic; font-size: 12px") This website was last updated at #{site.date}

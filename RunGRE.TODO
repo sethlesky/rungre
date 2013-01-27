@@ -8,13 +8,28 @@ RunGRE Task Todo:
 ✔ Add BUY button @done (13-01-19 21:06)
   ✔ Add price @done (13-01-19 21:06)
   ✔ Center @done (13-01-19 21:06)
-☐ FitText?
-☐ Add iconfonts (fontawesome or?)
-☐ Buy proper image of book
-☐ Playable demo, inside iphone image
+✔ Fix block quote centering @done (13-01-26 19:13)
+☐ Playable demo, inside iphone image?
+☐ Repeat banner-right image on larger displays
 ☐ Fuzzy logo on iPhone
-☐ Javascript function preventing livereload??
+☐ Footer
+☐ Icons
+☐ Spelling issues
+✔ Addtional text @done (13-01-26 18:36)
+☐ Pull CSS out of html
+☐ Increase size of iphone
+☐ Use new book image
+☐ Sell case on amazon so people can swim!
 
+☐ Build the blog
+  ☐ 
+  ☐ 
+
+
+☐ Two talgines, one for small size in banner and other in nav
+
+DocPad:
+  ☐ Javascript function preventing livereload??
 
 Add content:
 
@@ -29,3 +44,16 @@ Thoughts:
 YouTube video explaining the idea
 Complete transparency 
 working on 500+ devices!
+
+Content:
+            Extensive research shows the powerful effects of aerobic 
+            [exercise on learning and memory](http://www.google.com). Studies also show how unhealthy
+            [sitting for long periods](http://www.google.com) of time can be.
+
+            RunGRE aims to take the **sitting out of studying**, 
+            while adding the benefits of exercise on memory retention.
+
+            RunGRE is the first flashcard system designed with exercise in mind. See and hear flashcards for greatest memory retention, or use audio-only when on the move.
+
+            Developed with standard music files (m4a) RunGRE works on over 500 devices,
+            including mp3 players, smartphones, laptops and tablets.
