@@ -82,8 +82,34 @@ html(lang="en")
 
   section#content.content!= content
   footer
-    div= site.copyright
-    div(style="font-style:italic; font-size: 12px") This website was last updated at #{site.date}
+    .container.content-wrapper
+      .row
+        .span6
+          span hi there
+        .span6
+            div.
+              <div id="wufoo-z7x3p3">
+              Fill out my <a href="http://rungre.wufoo.com/forms/z7x3p3">online form</a>.
+              </div>
+              <script type="text/javascript">var z7x3p3;(function(d, t) {
+              var s = d.createElement(t), options = {
+              'userName':'rungre', 
+              'formHash':'z7x3p3', 
+              'autoResize':true,
+              'height':'437',
+              'async':true,
+              'header':'show'};
+              s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+              s.onload = s.onreadystatechange = function() {
+              var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+              try { z7x3p3 = new WufooForm();z7x3p3.initialize(options);z7x3p3.display(); } catch (e) {}};
+              var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+              })(document, 'script');</script>
+      .row
+        .span12
+          .div.info
+            div.pull-right= site.copyright
+            div.pull-right(style="font-style:italic; font-size: 12px; clear: both;") This website was last updated at #{site.date}
 
   // Scripts
   != scripts.toHTML()

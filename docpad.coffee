@@ -40,7 +40,7 @@ docpadConfig =
       email: "your@email.com"
 
       # Your company's name
-      copyright: "© Your Company 2012"
+      copyright: "© RunGRE 2013"
 
 
     # Helper Functions
