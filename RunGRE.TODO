@@ -13,7 +13,7 @@ RunGRE Task Todo:
 ☐ Repeat banner-right image on larger displays
 ☐ Fuzzy logo on iPhone
 ☐ Footer
-☐ Icons
+✔ Icons @done (13-02-06 17:04)
 ☐ Spelling issues
 ✔ Addtional text @done (13-01-26 18:36)
 ☐ Pull CSS out of html
@@ -21,10 +21,12 @@ RunGRE Task Todo:
 ☐ Use new book image
 ☐ Sell case on amazon so people can swim!
 ☐ http://comfirm.se/blog/
+☐ Keep both divs the same height
+  http://stackoverflow.com/questions/2997767/how-do-i-keep-two-divs-that-are-side-by-side-the-same-height
+
 
 ☐ Build the blog
-  ☐ 
-  ☐ 
+
 
 
 ☐ Two talgines, one for small size in banner and other in nav

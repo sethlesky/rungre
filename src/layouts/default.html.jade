@@ -85,7 +85,14 @@ html(lang="en")
     .container.content-wrapper
       .row
         .span6
-          span hi there
+          h4 From the blog
+          img(src="/images/runner2.jpg", alt="post image").img-circle
+          nav.linklist
+            each doc in getCollection('posts').toJSON()
+              li
+                span= doc.date.toShortDateString()
+                |  &nbsp&nbsp&nbsp
+                a(href=doc.url)= doc.title
         .span6
             div.
               <div id="wufoo-z7x3p3">
@@ -107,7 +114,7 @@ html(lang="en")
               })(document, 'script');</script>
       .row
         .span12
-          .div.info
+          .info
             div.pull-right= site.copyright
             div.pull-right(style="font-style:italic; font-size: 12px; clear: both;") This website was last updated at #{site.date}
 

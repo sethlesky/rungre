@@ -1,21 +1,30 @@
 ---
 title: Blog
-layout: page
+layout: default
 pageOrder: 3
 ignored: false
 ---
 
 
-h1 RunBlog
-:markdown
-	Fascinating and memorable word etymology, GRE tips and tricks, word lists, lessons learned, advice for traveling 
-	entrepreneurs. We're looking forward to blogging about these topics and more, so stay tuned :)
+.container.bloglisting
+	.row
+		.span8
+			nav.linklist
+			  each doc in getCollection('posts').toJSON()
+			    div
+	    		  a(href=doc.url).bloglinks= doc.title
+			      div
+		    		  span= doc.date.toShortDateString()
+		    		  | &nbsp|&nbsp
+		    		  a(href=doc.url)= "Read more"
+		    		  hr
+
+			      
+		.span4
+			h4.ourblog Our Blog
+			:markdown
+				Fascinating and memorable word etymology, GRE tips and tricks, word lists, lessons learned, advice for traveling 
+				entrepreneurs. We're looking forward to blogging about these topics and more, so stay tuned :)
 
 
 
-nav.linklist
-  each doc in getCollection('posts').toJSON()
-    li
-      span= doc.date.toShortDateString()
-      |  &raquo;&nbsp;
-      a(href=doc.url)= doc.title

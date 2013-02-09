@@ -4,9 +4,11 @@ body
 
 // Navbar 
 .navbar
+	opacity: .96
 	.navbar-inner .nav
 		padding-top 21px
 		font-size: 18px
+
 
 .tagline
 	margin-top: 31px
@@ -30,6 +32,10 @@ ul li:last-child
 	text-transform: uppercase
 	font-size: 14px
 
+// Blog
+.navbar .nav > li:first-child > a
+	padding: 12px
+	border-radius: 5px;
 
 // banner
 .hero-unit
@@ -44,8 +50,8 @@ ul li:last-child
 	text-align: center
 .iphone
 	position: relative
-	top: -70px
-	width: 300px
+	top: -80px
+	width: 320px
 
 
 // Setup media queries here from deocpad authors website
@@ -56,7 +62,7 @@ ul li:last-child
 	padding: 10px
 	background-color: #eee
 	padding: 20px
-	margin: 20px 0px 20px 0px
+	margin: 0px 0px 60px 0px
 	text-align: center
 	font-size: 22px
 	font-style: italic
@@ -150,6 +156,7 @@ ul li:last-child
 .icon-comment
 	color: orange;
 
+//Blog and page layouts
 .page .page-content
 	max-width: 650px
 	margin: 0 auto
@@ -165,14 +172,58 @@ footer
 	background: -o-linear-gradient(top, rgba(27,32,40,1) 0%,rgba(37,47,63,1) 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top, rgba(27,32,40,1) 0%,rgba(37,47,63,1) 100%); /* IE10+ */
 	background: linear-gradient(to bottom, rgba(27,32,40,1) 0%,rgba(37,47,63,1) 100%); /* W3C */
-	height: 300px;
-	margin-top: 40px;
+	min-height: 400px;
+	margin-top: 60px;
+	color: white;
+	h4
+		margin-top: 50px;
+		font-size: 24px;
+		padding-bottom: 20px;
+	img
+		width: 126px;
+		float: left;
+		margin-right: 25px;
+		height: 126px;
+	.linklist 
+		list-style: none;
+		padding: 15px;
+		border-radius: 5px;
+		a
+			color: white;
+		li
+			line-height: 24px;
+
 
 .info
 	position: absolute;
-	bottom: 20px;
+	bottom: 5px;
 	right: 20px;
 	color: gray;
+
+// Blog listings page
+
+.bloglisting
+	margin-top: 50px;
+.bloglinks
+	font-size: 40px;
+	line-height: 52px;
+.ourblog
+	font-size: 26px;
+
+// Blog article page
+article h1
+	margin-top: 50px
+	margin-bottom: 50px
+article	li
+		list-style: none
+article 
+	#related
+		margin-top: 50px
+		h3
+			border-bottom: 1px dotted #CCC
+
+
+
 
 // /* Large desktop */
 // @media (min-width: 1200px) {
