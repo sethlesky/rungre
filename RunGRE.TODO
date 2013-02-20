@@ -12,27 +12,19 @@ RunGRE Task Todo:
 ☐ Playable demo, inside iphone image?
 ☐ Repeat banner-right image on larger displays
 ☐ Fuzzy logo on iPhone
-☐ Footer
+✔ Footer @done (13-02-19 19:55)
 ✔ Icons @done (13-02-06 17:04)
-☐ Spelling issues
 ✔ Addtional text @done (13-01-26 18:36)
 ☐ Pull CSS out of html
-☐ Increase size of iphone
-☐ Use new book image
-☐ Sell case on amazon so people can swim!
+✔ Increase size of iphone @done (13-02-19 19:55)
+
 ☐ http://comfirm.se/blog/
 ☐ Keep both divs the same height
   http://stackoverflow.com/questions/2997767/how-do-i-keep-two-divs-that-are-side-by-side-the-same-height
-
-
-☐ Build the blog
-
-
-
-☐ Two talgines, one for small size in banner and other in nav
-
+✔ Build the blog @done (13-02-19 19:55)
+✔ Two talgines, one for small size in banner and other in nav @done (13-02-19 19:55)
 DocPad:
-  ☐ Javascript function preventing livereload??
+  ✔ Javascript function preventing livereload?? @done (13-02-19 19:55)
 
 Add content:
 
@@ -44,6 +36,7 @@ Thoughts:
 2.  --- GRE flashcards designed for movement
     GRE
 
+☐ Sell case on amazon so people can swim!
 YouTube video explaining the idea
 Complete transparency 
 working on 500+ devices!
