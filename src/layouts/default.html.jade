@@ -21,6 +21,8 @@
 //-Font Awesome
 - styles.add(["/vendor/font-awesome/css/font-awesome.min.css"])
 
+
+
 doctype 5
 html(lang="en")
   head
@@ -59,6 +61,9 @@ html(lang="en")
 
     // Styles
     != styles.toHTML()
+
+    // Scripts
+    != scripts.toHTML()
 
   body
 
@@ -118,5 +123,4 @@ html(lang="en")
             div.pull-right= site.copyright
             div.pull-right(style="font-style:italic; font-size: 12px; clear: both;") This website was last updated at #{site.date}
 
-  // Scripts
-  != scripts.toHTML()
+
