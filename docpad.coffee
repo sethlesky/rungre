@@ -12,7 +12,7 @@ docpadConfig =
     # Specify some site properties
     site:
       # The production url of our website
-      url: "http://website.com"
+      url: "http://rungre.com"
 
       # Here are some old site urls that you would like to redirect from
       oldUrls: [
@@ -21,23 +21,23 @@ docpadConfig =
       ]
 
       # The default title of our website
-      title: "Your Website"
+      title: "RunGRE"
 
       # The website description (for SEO)
       description: """
-        When your website appears in search results in say Google, the text here will be shown underneath your website's title.
+        RunGRE: The fastest way to master GRE vocabulary
         """
 
       # The website keywords (for SEO) separated by commas
       keywords: """
-        place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website
+        GRE, flashcards, graduate, school, entrance, exam, audio, vocabulary, english, vocab, words, definitions, vocab list
         """
 
       # The website author's name
-      author: "Your Name"
+      author: "Seth Lesky"
 
       # The website author's email
-      email: "your@email.com"
+      email: "seth.lesky@gmail.com"
 
       # Your company's name
       copyright: "© RunGRE 2013"
